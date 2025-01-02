@@ -44,11 +44,11 @@ GetCourse иногда меняет алгоритмы, ниже описано 
 
 Откройте терминал и выполните команду скачивания этого скрипта:
 
-`curl -L --output /tmp/getcourse-video-downloader.sh https://github.com/mikhailnov/getcourse-video-downloader/raw/master/getcourse-video-downloader.sh`
+`curl -L --output /tmp/getcourse-video-downloader.sh https://github.com/hostmepanda/getcourse-video-downloader/raw/master/getcourse-video-downloader.sh`
 
 Затем запустите скрипт:
 
-`bash /tmp/getcourse-video-downloader.sh "ДЛИННАЯ_ССЫЛКА" "Имя файла.ts"`
+`bash /tmp/getcourse-video-downloader.sh "ДЛИННАЯ_ССЫЛКА" "ССЫЛКА_НА_АУДИО_ПЛЕЙЛИСТ" "Имя файла.ts"`
 
 Первым аргументом идет ссылка, вторым — имя файла, куда сохранить скачанное, рекомендуемое расширение — ts.
 
